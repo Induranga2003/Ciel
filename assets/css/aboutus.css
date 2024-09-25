@@ -1,0 +1,97 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Flexbox */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* About Us Section */
+.about-us {
+    background-color: #ffffff;
+    padding: 60px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.about-us h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #007BFF; /* Change to your primary color */
+}
+
+.about-us p {
+    font-size: 1.125em;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto 40px;
+    color: #555;
+}
+
+.about-us p br {
+    margin-bottom: 20px;
+    display: block;
+}
+
+.about-us img {
+    max-width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.about-us img:hover {
+    transform: scale(1.1);
+}
+
+/* Button */
+.about-us .button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #007BFF; /* Change to your primary color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.about-us .button:hover {
+    background-color: #0056b3; /* Darker shade of primary color */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .about-us h2 {
+        font-size: 2em;
+    }
+
+    .about-us p {
+        font-size: 1em;
+    }
+
+    .about-us img {
+        max-width: 100px;
+    }
+}

@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic styling for body */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+/* Styling for main delivery info container */
+.delivery-info {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Styling for headings */
+h3 {
+  color: #333;
+  font-size: 1.2em;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+/* Styling for lists */
+ul {
+  list-style-type: none;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+/* Styling for paragraphs */
+p {
+  margin-bottom: 10px;
+}

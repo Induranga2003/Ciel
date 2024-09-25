@@ -1,0 +1,1044 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+   
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+    
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Page 1 -CIEL</title>
+  </head>
+  <body>
+   
+    <header class="header">
+      <div class="header__top">
+        <div class="header__container container">
+          <div class="header__contact">
+            <span>(+94) - 77 - 1234 - 5678</span>
+
+            <span> Contact Us</span>
+          </div>
+
+          <p class="header__alert-news">
+            Flash Sale - Enter using coupons
+          </p>
+
+          <a href="loginN.php" class="header__top-action">
+            Sign In / Sign Up
+          </a>
+        </div>
+      </div>
+
+      <nav class="nav container">
+        <a href="index.html" class="nav__logo">
+          <img src="assets/img/ciel-removebg.png" alt="" class="nav__logo-img" />
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <div class="nav__menu-top">
+            <a href="index.html" class="nav__menu-logo">
+              <img src="assets/img/ciel-removebg.png" alt="" />
+            </a>
+
+            <div class="nav__close" id="nav-close">
+              <i class="fi fi-rs-cross-small"></i>
+            </div>
+          </div>
+
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link">Home</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="shop.html" class="nav__link active-link">Shop</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="accounts.php" class="nav__link">My Account</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="compare.html" class="nav__link">Compare</a>
+            </li>
+
+            <li class="nav__item">
+              <!-- <a href="login-register.html" class="nav__link">Login</a>-->
+               <a href="loginN.php" class="nav__link">Login</a>   
+            </li>
+          </ul>
+
+          <div class="header__search">
+            <form action="search.php" method="GET">
+            <input
+              type="text"
+              name="query"
+              placeholder="Search for items..."
+              class="form__input"
+              autocomplete="on"
+            />
+
+            <button class="search__btn">
+              <img src="assets/img/search.png" alt="" />
+            </button>
+            </form>
+          </div>
+        </div>
+
+        <div class="header__user-actions">
+          <a href="wishlist.php" class="header__action-btn">
+            <img src="assets/img/heart icon.png" alt="" />
+            <span class="count">1</span>
+          </a>
+
+          <a href="cart.php" class="header__action-btn">
+            <img src="assets/img/cart-icon.png" alt="" />
+            <span class="count">2</span>
+          </a>
+
+          <div class="header__action-btn nav__toggle" id="nav-toggle">
+            <img src="assets/img/menu-burger.svg" alt="">
+          </div>
+        </div>
+      </nav>
+    </header>
+
+   
+    <main class="main">
+      
+      <section class="breadcrumb">
+        <ul class="breadcrumb__list flex container">
+          <li><a href="index.html" class="breadcrumb__link">Home</a></li>
+          <li><span class="breadcrumb__link">></span></li>
+          <li><span class="breadcrumb__link">Shop</span></li>
+        </ul>
+      </section>
+
+     
+      <section class="products section--lg container">
+        <p class="total__products">We found <span>42</span> items for you!</p>
+
+        <!-- 1st -->
+        <div class="products__container grid">
+          <div class="product__item">
+            <div class="product__banner">
+              <a href="details.php?id=1" class="product__images">
+                <img
+                  src="assets/img/Item1.png"
+                  alt=""
+                  class="product__img default"
+                />
+
+                <img
+                  src="assets/img/Item1-1.png"
+                  alt=""
+                  class="product__img hover"
+                />
+              </a>
+
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <i class="fi fi-rs-eye"></i>
+                </a>
+
+                <a href="add_to_wishlist.php?id=1" class="action__btn" aria-label="Add To Wishlist">
+                  <i class="fi fi-rs-heart"></i>
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Compare">
+                  <i class="fi fi-rs-shuffle"></i>
+                </a>
+              </div>
+
+              <div class="product__badge light-pink">-25%</div>
+            </div>
+
+            
+            <div class="product__content">
+              <span class="product__category">Clothing</span>
+              <a href="details.php?id=1">
+                <h3 class="product__title">Levi's 501 Original Jeans</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">Rs.15 000.00</span>
+                <span class="old__price">Rs.20 000.00</span>
+              </div>
+
+               <a
+                href="#"
+                class="action__btn cart__btn"
+                aria-label="Add To Cart"
+              >
+                <i class="fi fi-rs-shopping-bag-add"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- 2th -->
+
+          <div class="product__item">
+            <div class="product__banner">
+              <a href="details.php?id=2" class="product__images">
+                <img
+                  src="assets/img/Item2.png"
+                  alt=""
+                  class="product__img default"
+                />
+
+                <img
+                  src="assets/img/Item2-2.png"
+                  alt=""
+                  class="product__img hover"
+                />
+              </a>
+
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <i class="fi fi-rs-eye"></i>
+                </a>
+
+                <a href="add_to_wishlist.php?id=2" class="action__btn" aria-label="Add To Wishlist">
+                  <i class="fi fi-rs-heart"></i>
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Compare">
+                  <i class="fi fi-rs-shuffle"></i>
+                </a>
+              </div>
+
+              <div class="product__badge light-green">-25%</div>
+            </div>
+
+            
+            <div class="product__content">
+              <span class="product__category">Shoes</span>
+              <a href="details.php?id=2">
+                <h3 class="product__title">Nike Air Max 270</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">Rs.37 500.00</span>
+                <span class="old__price">Rs.50 000.00</span>
+              </div>
+
+              <a
+              href="#"
+              class="action__btn cart__btn"
+              aria-label="Add To Cart"
+            >
+              <i class="fi fi-rs-shopping-bag-add"></i>
+            </a>
+
+            </div>
+          </div>
+
+          <!-- 3th -->
+
+          <div class="product__item">
+            <div class="product__banner">
+              <a href="details.php?id=3" class="product__images">
+                <img
+                  src="assets/img/Item3.png"
+                  alt=""
+                  class="product__img default"
+                />
+
+                <img
+                  src="assets/img/Item3-3.png"
+                  alt=""
+                  class="product__img hover"
+                />
+              </a>
+
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <i class="fi fi-rs-eye"></i>
+                </a>
+
+                <a href="add_to_wishlist.php?id=3" class="action__btn" aria-label="Add To Wishlist">
+                  <i class="fi fi-rs-heart"></i>
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Compare">
+                  <i class="fi fi-rs-shuffle"></i>
+                </a>
+              </div>
+
+              <div class="product__badge light-orange">-20%</div>
+            </div>
+
+            
+            <div class="product__content">
+              <span class="product__category">Shoes</span>
+              <a href="details.php?id=3">
+                <h3 class="product__title">Adidas Ultraboost 21</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">Rs.48 000.00</span>
+                <span class="old__price">Rs.60 000.00</span>
+              </div>
+
+              <a
+              href="#"
+              class="action__btn cart__btn"
+              aria-label="Add To Cart"
+            >
+              <i class="fi fi-rs-shopping-bag-add"></i>
+            </a>
+            </div>
+          </div>
+          <!-- 4th -->
+
+          <div class="product__item">
+            <div class="product__banner">
+              <a href="details.php?id=4" class="product__images">
+                <img
+                  src="assets/img/Item4.png"
+                  alt=""
+                  class="product__img default"
+                />
+
+                <img
+                  src="assets/img/Item4-4.png"
+                  alt=""
+                  class="product__img hover"
+                />
+              </a>
+
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <i class="fi fi-rs-eye"></i>
+                </a>
+
+                <a href="add_to_wishlist.php?id=4" class="action__btn" aria-label="Add To Wishlist">
+                  <i class="fi fi-rs-heart"></i>
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Compare">
+                  <i class="fi fi-rs-shuffle"></i>
+                </a>
+              </div>
+
+              <div class="product__badge light-blue">Hot</div>
+            </div>
+
+            
+            <div class="product__content">
+              <span class="product__category">Clothing</span>
+              <a href="details.php?id=4">
+                <h3 class="product__title">The North Face Thermoball Jacket</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">Rs.59 999.99</span>
+                <!-- <span class="old__price">Rs.2750</span> -->
+              </div>
+
+              <a
+                href="#"
+                class="action__btn cart__btn"
+                aria-label="Add To Cart"
+              >
+                <i class="fi fi-rs-shopping-bag-add"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- 5th -->
+
+          <div class="product__item">
+            <div class="product__banner">
+              <a href="details.php?id=5" class="product__images">
+                <img
+                  src="assets/img/Item5.png"
+                  alt=""
+                  class="product__img default"
+                />
+
+                <img
+                  src="assets/img/Item5-5.png"
+                  alt=""
+                  class="product__img hover"
+                />
+              </a>
+
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <i class="fi fi-rs-eye"></i>
+                </a>
+
+                <a href="add_to_wishlist.php?id=5" class="action__btn" aria-label="Add To Wishlist">
+                  <i class="fi fi-rs-heart"></i>
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Compare">
+                  <i class="fi fi-rs-shuffle"></i>
+                </a>
+              </div>
+
+              <div class="product__badge light-pink">Hot</div>
+            </div>
+
+           
+            <div class="product__content">
+              <span class="product__category">Accessories</span>
+              <a href="details.php?id=5">
+                <h3 class="product__title">Ray-Ban Wayfarer Sunglasses</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">Rs.39 999.99</span>
+                <!-- <span class="old__price">Rs.2750</span> -->
+              </div>
+
+              <a
+              href="#"
+              class="action__btn cart__btn"
+              aria-label="Add To Cart"
+            >
+              <i class="fi fi-rs-shopping-bag-add"></i>
+            </a>
+            </div>
+          </div>
+
+          <!-- 6th -->
+
+          <div class="product__item">
+            <div class="product__banner">
+              <a href="details.php?id=6" class="product__images">
+                <img
+                  src="assets/img/Item6.png"
+                  alt=""
+                  class="product__img default"
+                />
+
+                <img
+                  src="assets/img/Item6-6.png"
+                  alt=""
+                  class="product__img hover"
+                />
+              </a>
+
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <i class="fi fi-rs-eye"></i>
+                </a>
+
+                <a href="add_to_wishlist.php?id=6" class="action__btn" aria-label="Add To Wishlist">
+                  <i class="fi fi-rs-heart"></i>
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Compare">
+                  <i class="fi fi-rs-shuffle"></i>
+                </a>
+              </div>
+
+              <div class="product__badge light-pink">Hot</div>
+            </div>
+
+                        
+            <div class="product__content">
+              <span class="product__category">Clothing</span>
+              <a href="details.php?id=6">
+                <h3 class="product__title">Patagonia Better Sweater Fleece</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">Rs.15 000.00</span>
+                <!-- <span class="old__price">Rs.2750</span> -->
+              </div>
+
+              <a
+              href="#"
+              class="action__btn cart__btn"
+              aria-label="Add To Cart"
+            >
+              <i class="fi fi-rs-shopping-bag-add"></i>
+            </a>
+            </div>
+          </div>
+
+          <!-- 7th -->
+
+          <div class="product__item">
+            <div class="product__banner">
+              <a href="details.php?id=7" class="product__images">
+                <img
+                  src="assets/img/Item7.png"
+                  alt=""
+                  class="product__img default"
+                />
+
+                <img
+                  src="assets/img/Item7-7.png"
+                  alt=""
+                  class="product__img hover"
+                />
+              </a>
+
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <i class="fi fi-rs-eye"></i>
+                </a>
+
+                <a href="add_to_wishlist.php?id=7" class="action__btn" aria-label="Add To Wishlist">
+                  <i class="fi fi-rs-heart"></i>
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Compare">
+                  <i class="fi fi-rs-shuffle"></i>
+                </a>
+              </div>
+
+              <div class="product__badge light-green">-10%</div>
+            </div>
+
+          
+            <div class="product__content">
+              <span class="product__category">Clothing</span>
+              <a href="details.php?id=7">
+                <h3 class="product__title">Under Armour HeatGear T-Shirt</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">Rs.9 000.00</span>
+                <span class="old__price">Rs.10 000.00</span>
+              </div>
+
+              <a
+              href="#"
+              class="action__btn cart__btn"
+              aria-label="Add To Cart"
+            >
+              <i class="fi fi-rs-shopping-bag-add"></i>
+            </a>
+            </div>
+          </div>
+
+
+          <!-- 8th -->
+
+          <div class="product__item">
+            <div class="product__banner">
+              <a href="details.php?id=8" class="product__images">
+                <img
+                  src="assets/img/Item8.png"
+                  alt=""
+                  class="product__img default"
+                />
+
+                <img
+                  src="assets/img/Item8-8.png"
+                  alt=""
+                  class="product__img hover"
+                />
+              </a>
+
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <i class="fi fi-rs-eye"></i>
+                </a>
+
+                <a href="add_to_wishlist.php?id=8" class="action__btn" aria-label="Add To Wishlist">
+                  <i class="fi fi-rs-heart"></i>
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Compare">
+                  <i class="fi fi-rs-shuffle"></i>
+                </a>
+              </div>
+              <div class="product__badge light-green">Hot</div>
+            </div>
+
+            <div class="product__content">
+              <span class="product__category">Shoes</span>
+              <a href="details.php?id=8">
+                <h3 class="product__title">New Balance 574 Classic Sneakers</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">Rs.39 500.00</span>
+                <!-- <span class="old__price">Rs.2750</span> -->
+              </div>
+
+              <a
+                href="#"
+                class="action__btn cart__btn"
+                aria-label="Add To Cart"
+              >
+                <i class="fi fi-rs-shopping-bag-add"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- 9th -->
+
+          <div class="product__item">
+            <div class="product__banner">
+              <a href="details.php?id=9" class="product__images">
+                <img
+                  src="assets/img/Item9.png"
+                  alt=""
+                  class="product__img default"
+                />
+
+                <img
+                  src="assets/img/Item9-9.png"
+                  alt=""
+                  class="product__img hover"
+                />
+              </a>
+
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <i class="fi fi-rs-eye"></i>
+                </a>
+
+                <a href="add_to_wishlist.php?id=9" class="action__btn" aria-label="Add To Wishlist">
+                  <i class="fi fi-rs-heart"></i>
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Compare">
+                  <i class="fi fi-rs-shuffle"></i>
+                </a>
+              </div>
+
+              <div class="product__badge light-pink">Hot</div>
+            </div>
+
+            <div class="product__content">
+              <span class="product__category">Clothing</span>
+              <a href="details.php?id=9">
+                <h3 class="product__title">Columbia PFG Tamiami Shirt</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">Rs.13 500.00</span>
+                <!-- <span class="old__price">Rs.2750</span> -->
+              </div>
+
+              <a
+              href="#"
+              class="action__btn cart__btn"
+              aria-label="Add To Cart"
+            >
+              <i class="fi fi-rs-shopping-bag-add"></i>
+            </a>
+            </div>
+          </div>
+
+          <!-- 10th -->
+
+          <div class="product__item">
+            <div class="product__banner">
+              <a href="details.php?id=10" class="product__images">
+                <img
+                  src="assets/img/Item10.png"
+                  alt=""
+                  class="product__img default"
+                />
+
+                <img
+                  src="assets/img/Item10-10.png"
+                  alt=""
+                  class="product__img hover"
+                />
+              </a>
+
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <i class="fi fi-rs-eye"></i>
+                </a>
+
+                <a href="add_to_wishlist.php?id=10" class="action__btn" aria-label="Add To Wishlist">
+                  <i class="fi fi-rs-heart"></i>
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Compare">
+                  <i class="fi fi-rs-shuffle"></i>
+                </a>
+              </div>
+
+              <div class="product__badge light-pink">Hot</div>
+            </div>
+
+            
+            <div class="product__content">
+              <span class="product__category">Clothing</span>
+              <a href="details.php?id=10">
+                <h3 class="product__title">Carhartt Acrylic Watch Hat</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">Rs.4 999.99</span>
+                <!-- <span class="old__price">Rs.2750</span> -->
+              </div>
+
+              <a
+              href="#"
+              class="action__btn cart__btn"
+              aria-label="Add To Cart"
+            >
+              <i class="fi fi-rs-shopping-bag-add"></i>
+            </a>
+            </div>
+          </div>
+          
+          <!-- 11th -->
+
+          <div class="product__item">
+            <div class="product__banner">
+              <a href="details.php?id=11" class="product__images">
+                <img
+                  src="assets/img/Item11.png"
+                  alt=""
+                  class="product__img default"
+                />
+
+                <img
+                  src="assets/img/Item11-11.png"
+                  alt=""
+                  class="product__img hover"
+                />
+              </a>
+
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <i class="fi fi-rs-eye"></i>
+                </a>
+
+                <a href="add_to_wishlist.php?id=11" class="action__btn" aria-label="Add To Wishlist">
+                  <i class="fi fi-rs-heart"></i>
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Compare">
+                  <i class="fi fi-rs-shuffle"></i>
+                </a>
+              </div>
+
+              <div class="product__badge light-green">Hot</div>
+            </div>
+
+            <div class="product__content">
+              <span class="product__category">Shoes</span>
+              <a href="details.php?id=11">
+                <h3 class="product__title">Converse Chuck Taylor All Star</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">Rs.16 500.00</span>
+                <!-- <span class="old__price">Rs.2750</span> -->
+              </div>
+
+              <a
+              href="#"
+              class="action__btn cart__btn"
+              aria-label="Add To Cart"
+            >
+              <i class="fi fi-rs-shopping-bag-add"></i>
+            </a>
+            </div>
+          </div>
+
+          <!-- 12th -->
+
+          <div class="product__item">
+            <div class="product__banner">
+              <a href="details.php?id=12" class="product__images">
+                <img
+                  src="assets/img/Item12.png"
+                  alt=""
+                  class="product__img default"
+                />
+
+                <img
+                  src="assets/img/Item12-12.png"
+                  alt=""
+                  class="product__img hover"
+                />
+              </a>
+
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <i class="fi fi-rs-eye"></i>
+                </a>
+
+                <a href="add_to_wishlist.php?id=12" class="action__btn" aria-label="Add To Wishlist">
+                  <i class="fi fi-rs-heart"></i>
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Compare">
+                  <i class="fi fi-rs-shuffle"></i>
+                </a>
+              </div>
+              <div class="product__badge light-green">-5%</div>
+            </div>
+
+            <div class="product__content">
+              <span class="product__category">Accessories</span>
+              <a href="details.php?id=12">
+                <h3 class="product__title">Gucci GG Marmont Matelassé Mini Bag</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">Rs.285 000.00</span>
+                <span class="old__price">Rs.300 000.00</span>
+              </div>
+
+              <a
+                href="#"
+                class="action__btn cart__btn"
+                aria-label="Add To Cart"
+              >
+                <i class="fi fi-rs-shopping-bag-add"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <ul class="pagination">
+          <li><a href="shop.html" class="pagination__link active">01</a></li>
+          <li><a href="shop2.html" class="pagination__link ">02</a></li>
+          <li><a href="shop3.html" class="pagination__link">03</a></li>
+          <li><a href="#" class="pagination__link">...</a></li>
+          <li><a href="shop16.html" class="pagination__link">16</a></li>
+          <li>
+            <a href="shop2.html" class="pagination__link icon">
+              <i class="fi-rs-angle-double-small-right"></i>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      
+      <section class="newsletter section">
+        <div class="newsletter__container container grid">
+          <h3 class="newsletter__title flex">
+            <img
+              src="assets/img/icon-email.svg"
+              alt=""
+              class="newsletter__icon"
+            />
+            Sign up to Newsletter
+          </h3>
+
+          <p class="newsletter__description">
+            ...and receive Rs.1000 coupon for first shopping.
+          </p>
+
+          <form action="" class="newsletter__form">
+            <input
+              type="text"
+              placeholder="Enter your email"
+              class="newsletter__input"
+            />
+            <button type="submit" class="newsletter__btn">Subscribe</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    
+    <footer class="footer container">
+      <div class="footer__container grid">
+        <div class="footer__content">
+          <a href="index.html" class="footer__logo">
+            <img src="assets/img/ciel-removebg.png" alt="" class="footer__logo-img" />
+          </a>
+
+          <h4 class="footer__subtitle">Contact</h4>
+
+          <p class="footer__description">
+            <span>Address:</span> 1079-1081 Maradana Road, Colombo
+          </p>
+
+          <p class="footer__description">
+            <span>Phone:</span> (+94) 112 345 678 /(+94) 01 2345 6789
+          </p>
+
+          <p class="footer__description">
+            <span>Hours:</span> 08:00 - 19:00, Mon - Sat
+          </p>
+
+          <div class="footer__social">
+            <h4 class="footer__subtitle">Follow Me</h4>
+
+            <div class="footer__social-links flex">
+              <a href="">
+                <img
+                  src="assets/img/icon-facebook.svg"
+                  alt=""
+                  class="footer__social-icon"
+                />
+              </a>
+
+              <a href="">
+                <img
+                  src="assets/img/icon-twitter.svg"
+                  alt=""
+                  class="footer__social-icon"
+                />
+              </a>
+
+              <a href="">
+                <img
+                  src="assets/img/icon-instagram.svg"
+                  alt=""
+                  class="footer__social-icon"
+                />
+              </a>
+
+              <a href="">
+                <img
+                  src="assets/img/icon-pinterest.svg"
+                  alt=""
+                  class="footer__social-icon"
+                />
+              </a>
+
+              <a href="">
+                <img
+                  src="assets/img/icon-youtube.svg"
+                  alt=""
+                  class="footer__social-icon"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Address</h3>
+
+          <ul class="footer__links">
+            <li><a href="aboutus.html" class="footer__link">About Us</a></li>
+            <li><a href="delInfo.html" class="footer__link">Delivery Information</a></li>
+            <li><a href="privacypolicy.html" class="footer__link">Privacy Policy</a></li>
+            <li><a href="terms.html" class="footer__link">Terms & Conditions</a></li>
+            <li><a href="contact.html"class="footer__link">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">My Account</h3>
+
+          <ul class="footer__links">
+            <li><a href="login.php" class="footer__link">Sign In</a></li>
+            <li><a href="cart.php" class="footer__link">View Cart</a></li>
+            <li><a href="wishlist.php" class="footer__link">My Wishlist</a></li>
+            <li><a href="accounts.html" class="footer__link">Track My Order</a></li>
+            <li><a href="helpcenter.html" class="footer__link">Help</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Secured Payment Gateways</h3>
+
+          <img
+            src="assets/img/payment-method.png"
+            alt=""
+            class="payment__img"
+          />
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p class="copyright">&copy; 2024 CIEL. All rights reserved</p>
+        <span class="designer">Designed by Group 30</span>
+      </div>
+    </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/search.js"></script>
+  </body>
+</html>

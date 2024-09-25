@@ -1,0 +1,99 @@
+.mapBox {
+    height: 420px;
+    margin-top: 80px;
+    margin-bottom: 100px; }
+  
+  .contact_info .info_item {
+    position: relative;
+    padding-left: 45px; }
+    .contact_info .info_item i {
+      position: absolute;
+      left: 0;
+      top: 0;
+      font-size: 20px;
+      line-height: 24px;
+      color: #ffba00;
+      font-weight: 600; }
+    .contact_info .info_item h6 {
+      font-size: 16px;
+      line-height: 24px;
+      color: "Roboto", sans-serif;
+      font-weight: bold;
+      margin-bottom: 0px;
+      color: #222222; }
+      .contact_info .info_item h6 a {
+        color: #222222; }
+    .contact_info .info_item p {
+      font-size: 14px;
+      line-height: 24px;
+      padding: 2px 0px; }
+  
+  .contact_form .form-group {
+    margin-bottom: 10px; }
+    .contact_form .form-group .form-control {
+      font-size: 13px;
+      line-height: 26px;
+      color: #999;
+      border: 1px solid #eeeeee;
+      font-family: "Roboto", sans-serif;
+      border-radius: 0px;
+      padding-left: 20px; }
+      .contact_form .form-group .form-control:focus {
+        box-shadow: none;
+        outline: none;
+      justify-content: flex-end; 
+    }
+      .contact_form .form-group .form-control.placeholder {
+        color: #999; }
+      .contact_form .form-group .form-control:-moz-placeholder {
+        color: #999; }
+      .contact_form .form-group .form-control::-moz-placeholder {
+        color: #999; }
+      .contact_form .form-group .form-control::-webkit-input-placeholder {
+        color: #999; }
+    .contact_form .form-group textarea {
+      resize: none; }
+      .contact_form .form-group textarea.form-control {
+        height: 134px; }
+  .contact_form .primary-btn {
+    background: #0059ff;
+    color: #fff;
+    margin-top: 20px;
+    border: none;
+    border-radius: 0; }
+  
+  /* Contact Success and error Area css
+  ============================================================================================ */
+  .modal-message .modal-dialog {
+    position:relative;
+    top: 36%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%) !important;
+    margin: 0px;
+    max-width: 500px;
+    width: 100%; }
+    .modal-message .modal-dialog .modal-content .modal-header {
+      text-align: center;
+      display: block;
+      border-bottom: none;
+      padding-top: 50px;
+      padding-bottom: 50px; }
+      .modal-message .modal-dialog .modal-content .modal-header .close {
+        position: absolute;
+        right: -15px;
+        top: -15px;
+        padding: 0px;
+        color: #fff;
+        opacity: 1;
+        cursor: pointer; }
+      .modal-message .modal-dialog .modal-content .modal-header h2 {
+        display: block;
+        text-align: center;
+        color: #008cff;
+        padding-bottom: 10px;
+        font-family: "Roboto", sans-serif; }
+      .modal-message .modal-dialog .modal-content .modal-header p {
+        display: block; }
+  
+
+  
